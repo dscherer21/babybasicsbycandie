@@ -1,3 +1,32 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: rgba(144, 213, 249, 1);
+}
+
+header {
+  background-color: rgba(91, 67, 45, 1);
+}
+
+h1 {
+  color: rgba(144, 213, 249, 1);
+  font-size: 72px;
+  padding: 20px 20px 20px 0;
+}
+
+footer {
+  background-color: rgba(91, 67, 45, 1);
+  color: rgba(144, 213, 249, .7);
+}
+
+.specialFont {
+  font-family: 'Architects Daughter', cursive;
+}
+
+#logo {
+  width: 92%;
+  height: auto;
+  padding: 20px 0 20px 20px;
+}
