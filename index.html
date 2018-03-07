@@ -11,6 +11,7 @@
     <link rel='stylesheet' type='text/css' href='assets/styles/style.css'>
     <!--Google Fonts: Architects Daughter-->
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+
     <!--JQuery Script Tag-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
@@ -27,16 +28,25 @@
           <h1 class='specialFont'>Baby Basics by Candie</h1>
         </div>
       </div>
-      <nav class='row' role="navigation">
-        <ul class="nav nav-pills">
-          <li role="presentation" class="active"><a href="index.html">Home</a></li>
-          <li role="presentation"><a href="#">About Candie</a></li>
-          <li role="presentation"><a href="#">Services</a></li>
-          <li role="presentation"><a href="#">Resources</a></li>
-          <li role="presentation"><a href="#">Testimonial</a></li>
-          <li role="presentation"><a href="#">Blog</a></li>
-        </ul>
-      </nav>
+      <div class='row'>
+        <nav class='col-xs-12' role="navigation">
+          <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="index.html">Home</a></li>
+            <li role="presentation"><a href="#">About Candie</a></li>
+            <li role="presentation" class='dropdown'><a href="#" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services
+                <span class="caret"></span>
+              </a>
+              <!--dropdown menu-->
+              <ul class="dropdown-menu" aria-labelledby="dLabel">
+                  <li></li>
+              </ul>
+            </li>
+            <li role="presentation"><a href="#">Resources</a></li>
+            <li role="presentation"><a href="#">Testimonial</a></li>
+            <li role="presentation"><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class='container text-center'>
